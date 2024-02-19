@@ -1,0 +1,25 @@
+Prompt 1:
+"Each file in the folder is a png image. 
+Extract all the information from all the images and separately store the information from each image in a structured json format. 
+Separate the json of each image by the title of the image or the group name, whichever is available. 
+Do not repeat any image. Don't hallucinate or give incorrect information. 
+Put 'NA' in places where the text cannot be detected."
+
+
+
+Prompt 2:
+"Each file in the folder is an image of health insurance plans. 
+Extract the following information from each plan: 1- Group Name, 
+						2- Effective Date, 
+						3- Deductible, 
+						4- Out of Pocket Max, 
+						5-Copay, 
+						6-Urgent Care, 
+						7- Preventive Care, 
+						8- Coinsurance. 
+						9- Other details, where you include all the other information 
+						not covered in the mentioned fields in a key-value format.
+Create a separate json for other details for each company. 
+Give me these details for both In-Network and Out of network. 
+Structure the output in a json format. 
+For fields where information is not detected, write NA. Do not print the evaluation warning statement."
